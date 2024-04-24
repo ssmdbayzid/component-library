@@ -7,10 +7,11 @@ import DropWithProps from './Dropdown/DropWithProps'
 export default function Dropdown() {
   return (
     <div className="">
-    <div className=" rounded-md w-56 text-right">
+      <h2 className='text-center text-xl font-bold underline mb-5 text-gray-200'>Menu</h2>
+    <div className=" rounded-md min-w-96 text-right">
       <Menu as="div" className="bg-blue-600 rounded-md text-white relative inline-block text-left">
         <div>
-          <Menu.Button className="inline-flex w-full justify-center rounded-md bg-black/20 px-4 py-2 text-sm font-medium text-white hover:bg-black/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
+          <Menu.Button className="inline-flex w-full justify-center rounded-md bg-black/20 min-w-96 px-4 py-2 text-sm font-medium text-white hover:bg-black/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
             Options
             <ChevronDownIcon
               className="-mr-1 ml-2 h-5 w-5 text-violet-200 hover:text-violet-100"
@@ -149,8 +150,8 @@ export default function Dropdown() {
       </Menu>
     </div>
 
-<DropdownWithButton className="mt-10"/>
-<DropWithProps />
+{/* <DropdownWithButton className="mt-10"/>
+<DropWithProps /> */}
     </div>
   )
 }

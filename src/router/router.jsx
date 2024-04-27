@@ -3,6 +3,10 @@ import  Home from "../Page/Home"
 import AntDesign from "../Page/AntDesign/AntDesign";
 import MainLayout from "../Layout/MainLayout";
 import HeadlessUi from "../Page/HeadlessUI/HeadlessUi";
+import PrimeReact from "../Page/PrimeReact/PrimeReact";
+import Tremor from "../Page/Tremor/Tremor";
+// import ShadCn from "@/Page/ShadCN/ShadCn";
+import ShadCn from '../Page/ShadCN/ShadCn'
 
 
 
@@ -22,6 +26,18 @@ const router = createBrowserRouter([
             {
                 path: "/headless-ui",
                 element: <HeadlessUi />
+            },
+            {
+                path: "/shad-cn",
+                element: <ShadCn />
+            },
+            {
+                path: "/prime-react",
+                element: <PrimeReact />
+            },
+            {
+                path: "/tremor",
+                element: <Tremor />
             },
         ],
     },

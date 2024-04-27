@@ -80,11 +80,24 @@ const Header = () => {
             >
               Headless UI
             </a>
+          
             <a
-              href="#"
+              href="/shad-cn"
               className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
             >
-              Projects
+              Shad CN
+            </a>
+            <a
+              href="/prime-react"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+            >
+              Prime React
+            </a>
+            <a
+              href="tremor"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+            >
+              Tremor
             </a>
             <a
               href="#"

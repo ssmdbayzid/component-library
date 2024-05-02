@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Header from '../Component/Header'
+import SideBar from '../Page/SideBar'
 
 const MainLayout = () => {
 
@@ -10,6 +11,7 @@ const MainLayout = () => {
       <div className="">
       <Outlet />
       </div>
+      <SideBar />
       </div>
   )
 }

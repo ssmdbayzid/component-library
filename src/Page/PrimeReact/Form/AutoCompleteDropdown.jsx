@@ -5,6 +5,8 @@ import 'primereact/resources/themes/lara-light-indigo/theme.css'; //theme
 import 'primereact/resources/primereact.min.css'; //core css
 import 'primeicons/primeicons.css'; //icons
 import 'primeflex/primeflex.css'; // flex
+
+
 export default function AutoCompleteDropdown() {
    return (
     <div className="">    
@@ -24,7 +26,7 @@ const AutoCompleteDownload = () =>{
 
     return (
         <div className="card flex justify-content-center">
-            <AutoComplete value={value} suggestions={items} completeMethod={search} onChange={(e) => setValue(e.value)} dropdown />
+            <AutoComplete value={value} suggestions={items} completeMethod={search} onChange={(e) => setValue(e.value)} dropdown  />
         </div>
     )
 }

@@ -14,8 +14,9 @@ export default function CardCom() {
         </>
     );
 
-    return (
-        <div className="card flex justify-content-center">
+    return (    
+        <div className="grid grid-cols-4">
+  <div className="card flex  justify-content-center">
             <Card title="Advanced Card" subTitle="Card subtitle" footer={footer} header={header} className="md:w-25rem">
                 <p className="m-0">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae 
@@ -23,6 +24,8 @@ export default function CardCom() {
                 </p>
             </Card>
         </div>
+        </div>
+      
     )
 }
         

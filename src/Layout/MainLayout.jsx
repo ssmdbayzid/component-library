@@ -11,7 +11,7 @@ const MainLayout = () => {
       <div className="">
       <Outlet />
       </div>
-      <SideBar />
+      
       </div>
   )
 }

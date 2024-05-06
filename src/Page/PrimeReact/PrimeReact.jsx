@@ -2,15 +2,16 @@ import React from 'react'
 import AutoCompleteDropdown from './Form/AutoCompleteDropdown'
 import TableFilter from "./Table/TableFilter"
 import CardCom from './Card/CardCom'
+import CalanderCom from './Calander/CalanderCom'
 
 const PrimeReact = () => {
   return (
-    <div className='max-w-[1170px] mx-auto '>PrimeReact
+    <div className='max-w-[1170px] mx-auto p-2'>PrimeReact
       <div className="">
         <AutoCompleteDropdown />
       </div>
       <div className="my-5">
-        <CardCom />
+        <CalanderCom />
       </div>
       {/* <div className="">
         <TableFilter />

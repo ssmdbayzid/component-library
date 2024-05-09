@@ -6,6 +6,10 @@ import CalanderCom from './Calander/CalanderCom'
 import { Accordion, AccordionTab } from 'primereact/accordion';
 import CascadeSelector from './CascadeCom/CascadeSelector'
 import CheckBoxCom from './CheckBox/CheckBoxCom'
+import ChipsCom from './Chips/ChipsCom'
+import ColorPickerCom from './ColorPicker/ColorPickerCom'
+import DropDown from './Dropdown/DropDown'
+
 
 const PrimeReact = () => {  
   const [tabs] = useState([
@@ -24,6 +28,18 @@ const PrimeReact = () => {
   {
       header: 'Check Box',
       children: <div className="bg-yellow-100 p-4"><CheckBoxCom /></div>
+  },
+  {
+      header: 'Chips',
+      children: <div className="bg-yellow-100 p-4"><ChipsCom /></div>
+  },
+  {
+      header: 'Color Picker',
+      children: <div className="bg-yellow-100 p-4"><ColorPickerCom /></div>
+  },
+  {
+      header: 'Dropdown',
+      children: <div className="bg-yellow-100 p-4"><DropDown /></div>
   },
   {
       header: 'Title III',

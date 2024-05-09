@@ -60,6 +60,14 @@ const CalanderCom = () => {
         <h3>Date Templates</h3>
         <DateTemplates />
         </div>
+        <div className="">
+        <h3>Touch Ui</h3>
+        <TouchUI />
+        </div>
+        <div className="lg:col-span-2">
+        <h3>Inline Calander</h3>
+        <InlineCalander />
+        </div>
     </div>
     </div>
   )
@@ -254,6 +262,23 @@ const DateTemplates = ()=>{
     return (
         <div className="card flex justify-content-center">
             <Calendar value={date} onChange={(e) => setDate(e.value)} dateTemplate={dateTemplate} />
+        </div>
+    )
+}
+
+const TouchUI = ()=>{
+    const [date, setDate] = useState(null);
+    return (
+        <div className="card flex justify-content-center">
+            <Calendar value={date} onChange={(e) => setDate(e.value)} touchUI />
+        </div>
+    )
+}
+const InlineCalander = ()=>{
+    const [date, setDate] = useState(null);
+    return (
+        <div className="card flex justify-content-center">
+            <Calendar value={date} onChange={(e) => setDate(e.value)} inline showWeek />
         </div>
     )
 }

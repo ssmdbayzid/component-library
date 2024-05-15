@@ -17,6 +17,7 @@ import InputSwitchCom from './InputSwitch/InputSwitchCom'
 import InputOTP from './InputOTP/InputOTP'
 import InputTextCom from './InputText/InputTextCom'
 import KnobCom from './Knob/KnobCom'
+import SidebarCom from './Sidebar/SidebarCom'
 
 
 
@@ -81,6 +82,10 @@ const PrimeReact = () => {
   {
       header: 'Knob Component',
       children: <div className="bg-yellow-100 p-4"><KnobCom /></div>
+  },
+  {
+      header: 'Sidebar',
+      children: <div className="bg-yellow-100 p-4"><SidebarCom /></div>
   },
   {
       header: 'Title III',
